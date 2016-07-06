@@ -1,0 +1,1 @@
+require(".././transition.jquery"),require(".././alert.jquery"),require(".././button.jquery"),require(".././carousel.jquery"),require(".././collapse.jquery"),require(".././dropdown.jquery"),require(".././modal.jquery"),require(".././tooltip.jquery"),require(".././popover.jquery"),require(".././scrollspy.jquery"),require(".././tab.jquery"),require(".././affix.jquery");

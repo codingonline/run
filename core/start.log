@@ -1,0 +1,599 @@
+ERROR:root:2015-12-30 11:09:03 homepage starts success
+ERROR:root:2015-12-30 11:09:04 editor starts success
+ERROR:root:2015-12-30 11:09:05 javaweb-compiler starts success
+ERROR:root:2015-12-30 11:09:06 gateone starts success
+ERROR:root:2015-12-31 11:36:00 Fail: 960a7c3bed4723864c3c5c4e3852090de3b5a632c66ef00efbc3a094115a2111
+Error response from daemon: Cannot start container 960a7c3bed4723864c3c5c4e3852090de3b5a632c66ef00efbc3a094115a2111: adding interface veth056539b to bridge docker0 failed: could not find bridge docker0: no such network interface
+ERROR:root:2015-12-31 11:36:19 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2015-12-31 11:43:34 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2015-12-31 12:27:29 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2015-12-31 13:04:14 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2015-12-31 13:04:47 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2015-12-31 14:26:34 Fail: 4c18ac7328747021f195e296b23c926e1dcb6c3b54d732452c58a05f23c374e6
+Error response from daemon: Cannot start container 4c18ac7328747021f195e296b23c926e1dcb6c3b54d732452c58a05f23c374e6: adding interface veth4aa0b90 to bridge docker0 failed: could not find bridge docker0: no such network interface
+ERROR:root:2015-12-31 14:26:50 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2015-12-31 14:37:20 Fail: 8dfda441f663aab985ace7c3f69d06395c436252212ea2fd281ad59aafd809b2
+Error response from daemon: Cannot start container 8dfda441f663aab985ace7c3f69d06395c436252212ea2fd281ad59aafd809b2: adding interface vethfbf1f25 to bridge docker0 failed: could not find bridge docker0: no such network interface
+ERROR:root:2016-01-03 10:20:53 Fail: 15c93d46c22291a0605dc0bc95264fcd8a17db81a97f02e25f5c6f63dec24a7c
+Error response from daemon: Cannot start container 15c93d46c22291a0605dc0bc95264fcd8a17db81a97f02e25f5c6f63dec24a7c: adding interface veth68fbf5d to bridge docker0 failed: could not find bridge docker0: no such network interface
+ERROR:root:2016-01-03 10:39:17 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-03 10:54:36 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-03 11:01:36 Fail: 6c9b1388c476667ef3a368d6d1d83d28b67763b7e763bc7bd4c1877606ac7421
+Error response from daemon: Cannot start container 6c9b1388c476667ef3a368d6d1d83d28b67763b7e763bc7bd4c1877606ac7421: Link not found
+ERROR:root:2016-01-03 11:06:40 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-03 11:06:58 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-03 11:09:25 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-03 11:11:54 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-03 11:26:21 Fail: 6e032de1813331176cd6edb03dc6dd538b72738d0cd95aabfa1c1249e9af509a
+Error response from daemon: Cannot start container 6e032de1813331176cd6edb03dc6dd538b72738d0cd95aabfa1c1249e9af509a: adding interface vethd192271 to bridge docker0 failed: could not find bridge docker0: no such network interface
+ERROR:root:2016-01-03 11:26:34 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-03 11:26:42 Fail: 6a9464575995bfe013d5ee5be1ef2506f051e72b476d62d24b79322c2598d32a
+Error response from daemon: Cannot start container 6a9464575995bfe013d5ee5be1ef2506f051e72b476d62d24b79322c2598d32a: adding interface veth36fa7c1 to bridge docker0 failed: could not find bridge docker0: no such network interface
+ERROR:root:2016-01-03 11:26:43 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-03 11:28:24 Fail: c354e43f8850f3a116db1ef1a5f929cf35ca7b0d0111fbf87683b89a3de30876
+Error response from daemon: Cannot start container c354e43f8850f3a116db1ef1a5f929cf35ca7b0d0111fbf87683b89a3de30876: iptables failed: iptables --wait -t nat -A DOCKER -p tcp -d 0/0 --dport 80 -j DNAT --to-destination 172.17.0.90:8080 ! -i docker0: iptables: No chain/target/match by that name.
+ (exit status 1)
+ERROR:root:2016-01-12 20:24:44 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-12 20:24:45 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-12 20:46:34 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-12 20:46:34 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-12 20:47:00 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-12 20:47:01 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-12 20:47:01 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-12 20:47:02 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-12 21:23:39 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-12 21:23:42 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-12 21:23:44 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-12 21:30:46 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-12 21:30:47 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-12 21:30:49 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-12 21:34:24 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-12 21:34:25 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-12 21:34:25 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-12 21:34:33 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-12 21:34:33 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-12 21:34:34 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-12 21:34:34 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-12 21:34:40 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-12 21:34:40 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-12 21:34:41 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-12 21:34:41 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-12 21:35:57 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-12 21:36:03 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-12 21:36:08 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-12 21:36:25 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-12 21:36:46 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-14 21:38:36 Fail: f6cde4aa964bb1009a1464d607f3bbc9f27ab2e37343d1db86f61ba22511dec5
+Error response from daemon: Cannot start container f6cde4aa964bb1009a1464d607f3bbc9f27ab2e37343d1db86f61ba22511dec5: iptables failed: iptables --wait -t filter -A DOCKER ! -i docker0 -o docker0 -p tcp -d 172.17.0.90 --dport 8080 -j ACCEPT: iptables: No chain/target/match by that name.
+ (exit status 1)
+ERROR:root:2016-01-14 21:38:37 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-14 21:39:00 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-14 21:39:03 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-14 21:39:04 Fail: 68ac5193a74aa646c92df3cc7ec4655fa7c950c69ce745243e28960a68eca70d
+Error response from daemon: Cannot start container 68ac5193a74aa646c92df3cc7ec4655fa7c950c69ce745243e28960a68eca70d: adding interface veth7c71dd6 to bridge docker0 failed: could not find bridge docker0: no such network interface
+ERROR:root:2016-01-14 21:39:04 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-14 21:39:04 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-14 21:39:32 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-14 21:39:33 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-14 21:39:33 Fail: b108edc9bb0b76f4c0b458f7b716e42413d50860f79ead486101129636c7aa34
+Error response from daemon: Cannot start container b108edc9bb0b76f4c0b458f7b716e42413d50860f79ead486101129636c7aa34: adding interface veth1fa345f to bridge docker0 failed: could not find bridge docker0: no such network interface
+ERROR:root:2016-01-14 21:39:33 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-14 21:39:33 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-14 21:39:34 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-14 21:39:50 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-14 21:40:07 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-14 21:40:49 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-14 21:40:49 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-14 21:40:49 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-14 21:40:49 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-14 21:40:49 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-14 21:40:50 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-14 21:42:13 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-14 21:42:14 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-14 21:42:14 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-14 21:42:14 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-14 21:42:14 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-14 21:42:14 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-14 21:45:10 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-14 21:45:11 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-14 21:45:11 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-14 21:45:11 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-14 21:45:11 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-14 21:45:11 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-14 21:51:54 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-14 21:54:24 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-14 21:54:24 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-14 21:54:25 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-14 21:54:25 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-14 21:54:25 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-14 21:54:25 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-14 22:15:20 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-14 22:15:20 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-14 22:15:20 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-14 22:15:20 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-14 22:15:20 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-14 22:15:21 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-14 22:15:40 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-14 22:15:40 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-14 22:15:40 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-14 22:15:40 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-14 22:15:40 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-14 22:15:41 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-14 22:15:52 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-15 19:31:13 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-15 19:32:36 Fail: f80dab747965b643f2a885d8d8969838a02a422a26cab6cf1a46d4f17589799c
+Error response from daemon: Cannot start container f80dab747965b643f2a885d8d8969838a02a422a26cab6cf1a46d4f17589799c: adding interface veth1a72f8d to bridge docker0 failed: could not find bridge docker0: no such network interface
+ERROR:root:2016-01-15 19:32:49 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-15 19:33:49 Fail: 60bf49fd6eeb0f56cbb4eee4b734b30993b2433c07b462b9c5f6b70f7f198da9
+Error response from daemon: Cannot start container 60bf49fd6eeb0f56cbb4eee4b734b30993b2433c07b462b9c5f6b70f7f198da9: adding interface veth3329485 to bridge docker0 failed: could not find bridge docker0: no such network interface
+ERROR:root:2016-01-15 19:34:09 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-15 19:34:25 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-15 19:34:28 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-15 19:34:31 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-15 19:34:34 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-15 19:36:46 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-15 19:36:55 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-15 21:18:15 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-15 21:18:48 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-15 21:18:59 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-15 21:19:13 Fail: 3ec567aae946aacc07b350068da2bf4e081412943986d5db53897183ff101cfe
+Error response from daemon: Cannot start container 3ec567aae946aacc07b350068da2bf4e081412943986d5db53897183ff101cfe: adding interface vetha18fbca to bridge docker0 failed: could not find bridge docker0: no such network interface
+ERROR:root:2016-01-15 21:19:21 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-15 21:19:42 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-15 21:19:55 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-15 21:20:20 Fail: e18c9bfd2582555502136c3692379ae8acda6be5badb0e7308311a025d6b3bd9
+Error response from daemon: Cannot start container e18c9bfd2582555502136c3692379ae8acda6be5badb0e7308311a025d6b3bd9: Link not found
+ERROR:root:2016-01-15 21:20:31 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-15 21:20:34 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-15 21:20:36 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-15 21:20:56 Fail: 312771b908d78bf1bcbd0f86de54ad25525b66eeb0aa63a96765efb73ef5f12e
+Error response from daemon: Cannot start container 312771b908d78bf1bcbd0f86de54ad25525b66eeb0aa63a96765efb73ef5f12e: adding interface vethab1fce2 to bridge docker0 failed: could not find bridge docker0: no such network interface
+ERROR:root:2016-01-15 21:21:15 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-15 21:21:22 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-15 21:21:25 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-15 21:21:28 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-15 21:21:49 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-15 21:22:00 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-15 21:25:16 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-15 21:25:16 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-15 21:25:17 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-15 21:25:17 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-15 21:25:17 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-15 21:26:50 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-15 21:27:09 Fail: d42d2b053b8aca9216788af4778686a12db6614da5e6373e30ccf32de139a873
+Error response from daemon: Cannot start container d42d2b053b8aca9216788af4778686a12db6614da5e6373e30ccf32de139a873: adding interface veth0b5d586 to bridge docker0 failed: could not find bridge docker0: no such network interface
+ERROR:root:2016-01-15 21:27:23 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-15 21:27:23 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-15 21:27:23 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-15 21:27:23 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-15 21:27:23 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-15 21:27:23 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-15 21:31:10 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-15 21:31:10 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-15 21:31:10 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-15 21:31:10 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-15 21:31:10 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-15 21:31:10 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-16 11:54:05 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-16 11:54:05 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-16 11:54:05 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-16 11:54:06 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-16 11:54:06 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-16 11:54:06 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-16 20:16:56 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-16 20:16:56 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-16 20:16:56 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-16 20:16:56 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-16 20:16:56 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-16 20:16:56 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-16 20:19:19 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-16 20:19:19 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-16 20:19:19 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-16 20:19:19 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-16 20:19:19 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-16 20:19:19 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-17 23:32:52 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-17 23:33:18 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-18 10:33:07 Fail: 9763a2053c024945b1a3a29c33d949dea7a46a6ec9e51d269532ff18cbc5584d
+Error response from daemon: Cannot start container 9763a2053c024945b1a3a29c33d949dea7a46a6ec9e51d269532ff18cbc5584d: adding interface veth0164e66 to bridge docker0 failed: could not find bridge docker0: no such network interface
+ERROR:root:2016-01-18 10:33:25 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-18 17:42:26 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-18 18:14:13 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-19 15:47:13 Fail: 8ea6bce28c8a0eefb167bb54c4e87cc56910c7e03325dbeda97163d8541b50fe
+Error response from daemon: Cannot start container 8ea6bce28c8a0eefb167bb54c4e87cc56910c7e03325dbeda97163d8541b50fe: adding interface veth98f0d1e to bridge docker0 failed: could not find bridge docker0: no such network interface
+ERROR:root:2016-01-19 15:47:21 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-19 15:48:13 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-19 15:49:44 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-19 15:50:19 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-19 15:50:50 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-19 15:52:02 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-19 17:18:57 Fail: 7d2d2910f28769d00b84aecf1700321524f92f3f64068c3d9fd84b44b3d777ef
+Error response from daemon: Cannot start container 7d2d2910f28769d00b84aecf1700321524f92f3f64068c3d9fd84b44b3d777ef: adding interface vethc698152 to bridge docker0 failed: could not find bridge docker0: no such network interface
+ERROR:root:2016-01-19 17:18:57 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-19 17:18:58 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-19 17:19:22 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-19 18:13:21 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-19 18:13:54 Fail: 85448849ae15b2c8fb1e627a0df6842bcaa8f6111942563d6aa7e927622209c1
+Error response from daemon: Cannot start container 85448849ae15b2c8fb1e627a0df6842bcaa8f6111942563d6aa7e927622209c1: iptables failed: iptables --wait -t filter -A DOCKER ! -i docker0 -o docker0 -p tcp -d 172.17.0.166 --dport 22 -j ACCEPT: iptables: No chain/target/match by that name.
+ (exit status 1)
+ERROR:root:2016-01-19 18:14:22 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-19 18:14:28 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-19 22:44:30 Fail: 82df84165909e653225d957016821596df539c0b10911f184451d14908af183b
+Error response from daemon: Cannot start container 82df84165909e653225d957016821596df539c0b10911f184451d14908af183b: adding interface vethe2ee934 to bridge docker0 failed: could not find bridge docker0: no such network interface
+ERROR:root:2016-01-19 22:44:30 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-19 22:44:30 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-19 22:44:30 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-19 22:44:30 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-19 22:44:30 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-19 22:44:43 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-19 22:44:43 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-19 22:44:43 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-19 22:44:43 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-19 22:44:43 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-19 22:44:43 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-19 22:49:40 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-19 22:49:40 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-19 22:49:40 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-19 22:49:40 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-19 22:49:41 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-19 22:49:41 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 12:43:39 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 12:43:39 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 12:43:39 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 12:43:39 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 12:43:39 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 12:43:39 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 14:29:31 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 14:29:31 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 14:29:31 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 14:29:32 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 14:29:32 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 14:29:53 Fail: dea33d8294c4e6abd28f278e11e036c3f95aa7d2aed5ef8e528178c026723e89
+Error response from daemon: Cannot start container dea33d8294c4e6abd28f278e11e036c3f95aa7d2aed5ef8e528178c026723e89: adding interface vethc29dbac to bridge docker0 failed: could not find bridge docker0: no such network interface
+ERROR:root:2016-01-20 14:29:54 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 14:29:54 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 14:29:54 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 15:41:06 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 15:41:59 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 15:42:14 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 15:43:57 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 15:44:22 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 15:47:08 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 15:58:14 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:00:39 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:10:20 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:12:05 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:12:19 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:12:19 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:12:20 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:12:22 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:12:27 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:12:28 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:12:28 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:12:29 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:13:03 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:14:20 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:14:23 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:14:23 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:14:24 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:14:24 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:14:25 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:14:55 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:14:58 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:15:02 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:15:05 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:15:08 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:15:42 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:15:47 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:16:55 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:17:37 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:20:15 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:20:41 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:20:42 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:20:43 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:20:44 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:20:44 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:21:08 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:21:17 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:21:21 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:21:24 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:21:28 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:24:52 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:25:07 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:25:37 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:25:38 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:25:39 Fail: 2283e506d04db00a82e10c795085fd16aa0cdb2b7ae14fa22a5979ae5158520b
+Error response from daemon: Cannot start container 2283e506d04db00a82e10c795085fd16aa0cdb2b7ae14fa22a5979ae5158520b: adding interface veth8b05152 to bridge docker0 failed: could not find bridge docker0: no such network interface
+ERROR:root:2016-01-20 16:25:39 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:25:40 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:25:43 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:25:43 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:25:45 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:25:45 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:25:45 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:25:55 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:25:59 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:26:01 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:26:03 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:26:05 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:26:07 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:26:19 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:26:46 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:27:02 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:27:15 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:32:57 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:35:02 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:53:07 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:54:24 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 16:54:36 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 17:20:25 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 17:20:32 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 18:53:06 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 18:53:22 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 18:53:52 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 18:53:58 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 18:54:02 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 18:54:15 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 18:55:50 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 18:55:56 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 18:55:58 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 18:55:58 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 18:56:00 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 18:56:10 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 18:56:10 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 18:56:12 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 18:56:12 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 18:56:13 Fail: 64e25d94e514abf59148f3cfc6ae16fdc3ff0ac4bad33909e966050a2ea32415
+Error response from daemon: Cannot start container 64e25d94e514abf59148f3cfc6ae16fdc3ff0ac4bad33909e966050a2ea32415: adding interface veth9934158 to bridge docker0 failed: could not find bridge docker0: no such network interface
+ERROR:root:2016-01-20 18:56:16 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 18:56:16 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 18:56:16 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 18:56:16 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 18:56:16 Fail: b797e45db3740ebedb81c496c03e5148946f6999d580287accf269fb62c3f7de
+Error response from daemon: Cannot start container b797e45db3740ebedb81c496c03e5148946f6999d580287accf269fb62c3f7de: adding interface veth8c8c83c to bridge docker0 failed: could not find bridge docker0: no such network interface
+ERROR:root:2016-01-20 18:56:17 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 18:56:19 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 18:56:20 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 18:56:20 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 18:56:20 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 18:56:20 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 18:56:20 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 18:56:45 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 18:56:45 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 18:56:46 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 18:56:46 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 18:56:46 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 18:56:46 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 21:16:21 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 21:34:47 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 23:12:13 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 23:14:30 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 23:14:34 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 23:14:37 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 23:14:38 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 23:14:44 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 23:14:56 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 23:29:12 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-20 23:29:15 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-21 00:34:09 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-21 00:35:08 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-21 00:35:13 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-21 00:36:23 Fail: 61a5570e426340c640b25e08ed11ff7253c67284cab08b729911e54dfe709cb7
+Error response from daemon: Cannot start container 61a5570e426340c640b25e08ed11ff7253c67284cab08b729911e54dfe709cb7: adding interface vethc4d8c89 to bridge docker0 failed: could not find bridge docker0: no such network interface
+ERROR:root:2016-01-21 00:36:23 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-21 00:36:56 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-21 12:16:16 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-21 12:16:17 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-21 12:16:35 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-21 12:16:54 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-21 12:16:58 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-21 12:17:00 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-21 12:17:05 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-21 12:18:15 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-21 12:22:36 Fail: 5885ad0946d9202fe1a3aa360774db24bbe574283561fcaef5f750ea7f38afa2
+Error response from daemon: Cannot start container 5885ad0946d9202fe1a3aa360774db24bbe574283561fcaef5f750ea7f38afa2: could not set link down for container interface vethfeecf2c: no such device
+ERROR:root:2016-01-21 12:22:37 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-21 12:22:37 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-21 12:22:38 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-21 12:22:38 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-21 12:22:51 Fail: cf4020b28286af7a1d5885ccd84f61172fcd0a93a13b9c90f3d83e74fd55fb60
+Error response from daemon: Cannot start container cf4020b28286af7a1d5885ccd84f61172fcd0a93a13b9c90f3d83e74fd55fb60: adding interface vethbb127c0 to bridge docker0 failed: could not find bridge docker0: no such network interface
+ERROR:root:2016-01-21 12:22:51 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-21 12:22:52 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-21 12:22:52 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-21 12:22:52 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-21 12:24:03 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-21 12:25:28 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-21 12:25:53 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-21 12:26:07 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-21 23:06:35 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-21 23:06:40 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-21 23:06:45 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-21 23:07:20 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-21 23:07:22 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-21 23:07:24 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-21 23:07:25 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-21 23:07:27 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-21 23:07:28 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-21 23:07:29 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-21 23:23:50 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-21 23:23:52 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-21 23:23:55 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-22 13:34:22 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-22 13:34:26 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-22 13:35:43 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-22 14:01:46 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-22 14:03:44 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-22 14:09:49 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-24 00:00:26 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-24 00:02:33 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-24 00:04:08 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-24 00:04:12 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-24 00:06:30 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-24 00:07:26 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-24 00:10:48 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-24 00:12:15 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-24 00:12:32 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-24 00:15:10 Fail: d7485d99e94cb84068dae711cff08d7f374f1027b62df2a9e4c1525be7310dba
+Error response from daemon: Cannot start container d7485d99e94cb84068dae711cff08d7f374f1027b62df2a9e4c1525be7310dba: Link not found
+ERROR:root:2016-01-24 00:15:22 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-24 00:15:24 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-24 00:15:25 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-24 00:15:29 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-24 00:16:40 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-24 00:23:56 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-24 19:51:07 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-24 19:52:46 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-01-24 19:52:48 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-02-22 09:20:46 Fail: Error response from daemon: unable to find a node with port 4004 available
+ERROR:root:2016-02-29 18:52:45 Fail: b527816ea26e549396c980e1d2aac29962b1cde944b4fc3de7f54df36a4c5553
+Error response from daemon: Cannot start container b527816ea26e549396c980e1d2aac29962b1cde944b4fc3de7f54df36a4c5553: Link not found
+ERROR:root:2016-02-29 18:52:45 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-01 13:27:56 Fail: 20914ec6f558156f6c20c5990255f6287d94e76f552db68208390a94eb8c198e
+Error response from daemon: Cannot start container 20914ec6f558156f6c20c5990255f6287d94e76f552db68208390a94eb8c198e: Link not found
+ERROR:root:2016-03-01 13:28:18 Fail: e6a405ad1edcad7f78d537d57353601a0601baa220c5f9978d1d500301270188
+Error response from daemon: Cannot start container e6a405ad1edcad7f78d537d57353601a0601baa220c5f9978d1d500301270188: adding interface vethd83bed9 to bridge docker0 failed: could not find bridge docker0: no such network interface
+ERROR:root:2016-03-04 12:49:16 Fail: 28a19929711969a63fd9081d1be0b49f675fe392ec18a26992e98aaa15a13dd3
+Error response from daemon: Cannot start container 28a19929711969a63fd9081d1be0b49f675fe392ec18a26992e98aaa15a13dd3: iptables failed: iptables --wait -t filter -A DOCKER ! -i docker0 -o docker0 -p tcp -d 172.17.0.58 --dport 8080 -j ACCEPT: iptables: No chain/target/match by that name.
+ (exit status 1)
+ERROR:root:2016-03-04 12:49:36 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-04 12:49:40 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-04 12:51:53 Fail: cccae082771f4f010e52184f5b4967d1dec4581dd8571390c9b02c2d27e26b84
+Error response from daemon: Cannot start container cccae082771f4f010e52184f5b4967d1dec4581dd8571390c9b02c2d27e26b84: adding interface veth1046238 to bridge docker0 failed: could not find bridge docker0: no such network interface
+ERROR:root:2016-03-04 12:51:53 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-04 12:52:12 Fail: bed28c7699c1135cde908a966377d5e8279cc23c68ce55473b8b309a4a746650
+Error response from daemon: Cannot start container bed28c7699c1135cde908a966377d5e8279cc23c68ce55473b8b309a4a746650: adding interface vetha941cfa to bridge docker0 failed: could not find bridge docker0: no such network interface
+ERROR:root:2016-03-04 12:52:13 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-04 12:52:13 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-04 12:52:14 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-05 21:47:50 Fail: 6f5ecf726011d780f1189dd1fad6838e15aac72301dfc0b21fced2a7a84631d8
+Error response from daemon: Cannot start container 6f5ecf726011d780f1189dd1fad6838e15aac72301dfc0b21fced2a7a84631d8: adding interface veth2fa9650 to bridge docker0 failed: could not find bridge docker0: no such network interface
+ERROR:root:2016-03-05 21:47:57 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-05 21:47:59 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-05 21:48:18 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-05 21:54:57 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-05 21:56:40 Fail: f976b3397ae8bf3a8bd179fe87e865336284136376334a183ff6de940f5a46aa
+Error response from daemon: Cannot start container f976b3397ae8bf3a8bd179fe87e865336284136376334a183ff6de940f5a46aa: adding interface vethde27ee2 to bridge docker0 failed: could not find bridge docker0: no such network interface
+ERROR:root:2016-03-05 21:58:53 Fail: ab9706bf9a9fe7576cf2410eb775542beb801c399de290446f83b0999c46aaa7
+Error response from daemon: Cannot start container ab9706bf9a9fe7576cf2410eb775542beb801c399de290446f83b0999c46aaa7: could not set link down for container interface vethd8b9c9e: no such device
+ERROR:root:2016-03-05 21:59:12 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-05 22:00:32 Fail: d3874a25dc1b24f3bf1dcfb748a0f95477844fc789b2e3999a73b080d3c1b5df
+Error response from daemon: Cannot start container d3874a25dc1b24f3bf1dcfb748a0f95477844fc789b2e3999a73b080d3c1b5df: Link not found
+ERROR:root:2016-03-07 09:47:55 Fail: e4c99fe86900803e2db236f52c566c7234916a492df4e72ee39b58d4a6b55fee
+Error response from daemon: Cannot start container e4c99fe86900803e2db236f52c566c7234916a492df4e72ee39b58d4a6b55fee: Link not found
+ERROR:root:2016-03-07 09:47:56 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-07 09:47:56 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-07 09:48:34 Fail: 6be24c96cf4946bcde87587ed5f66eef2eb46582f54013cc1646f3398df55836
+Error response from daemon: Cannot start container 6be24c96cf4946bcde87587ed5f66eef2eb46582f54013cc1646f3398df55836: Link not found
+ERROR:root:2016-03-07 09:48:35 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-07 09:48:35 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-07 09:50:34 Fail: 5a40b49d8c1e3f9e4bc7f8006356e301c66cdab1d4b2da919a0c3548d434a6a0
+Error response from daemon: Cannot start container 5a40b49d8c1e3f9e4bc7f8006356e301c66cdab1d4b2da919a0c3548d434a6a0: adding interface veth0cde55c to bridge docker0 failed: could not find bridge docker0: no such network interface
+ERROR:root:2016-03-07 09:50:34 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-07 09:50:35 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-07 09:51:59 Fail: Post http://0.0.0.0:9950/v1.19/containers/create: read tcp 127.0.0.1:9950: connection reset by peer. Are you trying to connect to a TLS-enabled daemon without TLS?
+ERROR:root:2016-03-07 09:51:59 Fail: Post http://0.0.0.0:9950/v1.19/containers/create: net/http: transport closed before response was received. Are you trying to connect to a TLS-enabled daemon without TLS?
+ERROR:root:2016-03-07 09:52:00 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-20 23:27:26 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-20 23:29:36 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-20 23:30:43 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-20 23:30:45 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-20 23:30:47 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-20 23:30:49 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-20 23:30:50 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-20 23:30:52 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-20 23:30:53 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-20 23:30:55 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-20 23:30:57 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-20 23:33:13 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-21 09:37:09 Fail: 954edc14c30a6693184fcb53656f4d549ed39201e24c5bfbc3a6f3a6826cf433
+Error response from daemon: Cannot start container 954edc14c30a6693184fcb53656f4d549ed39201e24c5bfbc3a6f3a6826cf433: adding interface vethc093325 to bridge docker0 failed: could not find bridge docker0: no such network interface
+ERROR:root:2016-03-21 09:37:10 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-21 09:37:13 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-21 09:37:13 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-21 09:37:17 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-21 09:37:20 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-21 09:37:20 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-21 09:37:21 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-21 09:37:22 Fail: ce61d2d7d6e57e153ce5b1555c93bf71ceb5c765f424c9f6a4ec29861bb727f7
+Error response from daemon: Cannot start container ce61d2d7d6e57e153ce5b1555c93bf71ceb5c765f424c9f6a4ec29861bb727f7: adding interface veth8f6f24a to bridge docker0 failed: could not find bridge docker0: no such network interface
+ERROR:root:2016-03-21 09:37:22 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-21 09:37:23 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-21 09:37:23 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-21 09:37:24 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-21 09:37:24 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-21 09:37:24 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-21 09:37:24 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-21 09:37:25 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-21 09:37:25 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-21 09:37:25 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-21 09:37:26 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-21 09:37:26 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-21 09:37:26 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-21 09:37:26 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-21 09:37:26 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-21 09:37:27 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-21 09:37:27 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-21 09:37:28 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-21 09:37:28 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-21 09:37:28 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-21 09:37:28 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-21 09:37:29 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-21 09:37:29 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-21 09:37:29 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-21 09:37:54 Fail: aba89d087c8df2c6b3ef8bcc2b5530dbd4b0a1bb94425543321aeefc3dc333c9
+Error response from daemon: Cannot start container aba89d087c8df2c6b3ef8bcc2b5530dbd4b0a1bb94425543321aeefc3dc333c9: adding interface veth969ac59 to bridge docker0 failed: could not find bridge docker0: no such network interface
+ERROR:root:2016-03-21 09:37:54 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-21 09:37:54 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-21 09:37:55 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-21 09:37:55 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-21 09:38:23 Fail: a61c02d3e0a137f0d074c73b5e00bf80a2dabd1fc2df476267f5f7b42602c1e2
+Error response from daemon: Cannot start container a61c02d3e0a137f0d074c73b5e00bf80a2dabd1fc2df476267f5f7b42602c1e2: adding interface veth48edb56 to bridge docker0 failed: could not find bridge docker0: no such network interface
+ERROR:root:2016-03-21 09:38:24 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-21 09:38:24 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-21 09:38:27 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-21 09:38:30 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-21 09:38:36 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-21 09:38:38 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-21 09:38:38 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-21 09:38:40 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-21 15:17:33 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-21 15:17:39 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-24 23:59:20 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-24 23:59:28 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-24 23:59:44 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-03-24 23:59:46 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-05-30 13:13:23 Fail: 05299ed41b9ee03495415d972115ec08415b5c7fd39d8ff5cca85da2e3929681
+Error response from daemon: Cannot start container 05299ed41b9ee03495415d972115ec08415b5c7fd39d8ff5cca85da2e3929681: adding interface vethda95461 to bridge docker0 failed: could not find bridge docker0: no such network interface
+ERROR:root:2016-05-30 16:46:51 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-05-30 16:47:44 Fail: 4a5983eacff87f022ee714ab5779dcb64bfbe118cabd29434c4e6683617fd791
+Error response from daemon: Cannot start container 4a5983eacff87f022ee714ab5779dcb64bfbe118cabd29434c4e6683617fd791: adding interface vethb814885 to bridge docker0 failed: could not find bridge docker0: no such network interface
+ERROR:root:2016-05-30 16:47:58 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-05-30 16:48:02 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-05-30 16:49:26 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-05-30 16:51:52 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-05-30 16:52:58 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-05-30 16:56:25 Fail: 9c30f8c03316cee379f03cf6c579c9f6d5b8744e49b0c6a89340373e0eb9e0c3
+Error response from daemon: Cannot start container 9c30f8c03316cee379f03cf6c579c9f6d5b8744e49b0c6a89340373e0eb9e0c3: adding interface veth10b8f3a to bridge docker0 failed: could not find bridge docker0: no such network interface
+ERROR:root:2016-05-30 17:26:33 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-05-30 17:28:08 Fail: 5ce5a670f9ae1140f2ff580008f7fda801e6578c3d4397f76d4b71202ca26854
+Error response from daemon: Cannot start container 5ce5a670f9ae1140f2ff580008f7fda801e6578c3d4397f76d4b71202ca26854: adding interface veth6fc8c89 to bridge docker0 failed: could not find bridge docker0: no such network interface
+ERROR:root:2016-05-30 17:28:14 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-05-31 14:42:48 Fail: 7e3fae07480a078a1dca3105ebefe8c21ab4511883e1a02464254db83209f823
+Error response from daemon: Cannot start container 7e3fae07480a078a1dca3105ebefe8c21ab4511883e1a02464254db83209f823: adding interface veth13761b1 to bridge docker0 failed: could not find bridge docker0: no such network interface
+ERROR:root:2016-06-21 22:58:01 Fail: 31eeff166402adbbaf467190e2e0844290f81512fff1f9418ca282e620015d6c
+Error response from daemon: Cannot start container 31eeff166402adbbaf467190e2e0844290f81512fff1f9418ca282e620015d6c: adding interface vethf167842 to bridge docker0 failed: could not find bridge docker0: no such network interface
+ERROR:root:2016-06-21 22:59:45 Fail: 16bf686813364b795286fd2508ca748ea73e8799cd4a025be2f2c41b45c6d9e4
+Error response from daemon: Cannot start container 16bf686813364b795286fd2508ca748ea73e8799cd4a025be2f2c41b45c6d9e4: adding interface vethedeb970 to bridge docker0 failed: could not find bridge docker0: no such network interface
+ERROR:root:2016-06-21 23:04:00 Fail: b721cd2c8f4d1d9953c4e0cfff321777bb5acc271f40816fadbed657200682cf
+Error response from daemon: Cannot start container b721cd2c8f4d1d9953c4e0cfff321777bb5acc271f40816fadbed657200682cf: could not set link down for container interface veth2edc6a8: no such device
+ERROR:root:2016-06-21 23:04:38 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-07-02 13:41:54 Fail: d1dca6f3597265ca5b7f2602159e214cecd5a1cfa0d7d0dbf9f12b426bd8d394
+Error response from daemon: Cannot start container d1dca6f3597265ca5b7f2602159e214cecd5a1cfa0d7d0dbf9f12b426bd8d394: adding interface veth0e2a500 to bridge docker0 failed: could not find bridge docker0: no such network interface
+ERROR:root:2016-07-02 13:41:56 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-07-02 13:41:57 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-07-02 13:41:58 Fail: Error response from daemon: unable to find a node that satisfies node_name==node1
+ERROR:root:2016-07-02 13:42:07 Fail: 592338f42731b29320f206ba68805344137db959583a662ff8b232234de8abf6
+Error response from daemon: Cannot start container 592338f42731b29320f206ba68805344137db959583a662ff8b232234de8abf6: Link not found
+ERROR:root:2016-07-02 13:42:36 Fail: 7a677f980bf5950fa612dbbf38438591153247b5bc1149810c8c773ba39cac70
+Error response from daemon: Cannot start container 7a677f980bf5950fa612dbbf38438591153247b5bc1149810c8c773ba39cac70: adding interface vethda1f48e to bridge docker0 failed: could not find bridge docker0: no such network interface

@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+<!-- Favicons -->
+<link rel="icon" href="../static/favicon.ico">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Status of all runners</title>
+    <script src="../static/lib/jquery/jquery-1.9.1.min.js"></script>
+    <script src="../static/lib/bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+    <link href="../static/lib/bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+        div.panel, div.page-header {
+            width: 85%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        th, td {
+            text-align: center;
+        }
+    </style>
+
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $("#refresh").click(function() {
+            window.location.reload();
+        });
+        $(".delete").click(function() {
+            var pname = $(this).parent().parent().attr('id');
+            var btn = $(this);
+            $.post("delete",{pname: pname},
+                    function(data) {
+                        if (data.code==0) {
+                            window.location.reload();
+                        }
+                        else {
+                            alert(data.msg)
+                        }
+                    },
+                   "json");
+        });
+         $(".create_instance").click(function() {
+            var serviceid = $(this).parent().parent().attr('id');
+            var btn = $(this);
+            $.post("create_instance",{serviceid: serviceid},
+                    function(data) {
+                        if (data.code==0) {
+                            window.location.href="http://123.57.2.1:9222/instance?id="+serviceid;
+                        }
+                        else {
+                            alert(data.msg);
+                        }
+                    },
+                   "json");
+        });
+         $(".pass").click(function() {
+            var serviceid = $(this).parent().parent().attr('id');
+            var btn = $(this);
+            $.post("setstatus",{serviceid: serviceid, value: 1},
+                    function(data) {
+                        if(data.code==0){
+                            window.location.href="/monitor";
+                        }
+                        else{
+                            alert(data.msg);
+                        }
+                    },
+                   "json");
+        });
+         $(".failed").click(function() {
+            var serviceid = $(this).parent().parent().attr('id');
+            var btn = $(this);
+            $.post("setstatus",{serviceid: serviceid, value: 2},
+                    function(data) {
+                        if(data.code==0){
+                            window.location.href="/monitor";
+                        }
+                       else{
+                            alert(data.msg);
+                        }
+                    },
+                   "json");
+        });
+    });
+    </script>
+
+</head>
+<body>
+<div align="right">
+  <a href="/logout" id="logout"><i class="fa fa-power-off"></i>退出</a>
+</div>
+<div class="page-header">
+    <h2><span><button id="refresh" class="btn btn-primary">Refresh</button></span> Monitoring page for pop2016</h2>
+</div>
+<ul id="myTab" class="nav nav-tabs">
+   <li class="active">
+      <a href="#home" data-toggle="tab">
+         Home Services
+      </a>
+   </li>
+   <li><a href="#service" data-toggle="tab">Services</a></li>
+   <li><a href="#runners" data-toggle="tab">Runners</a></li>
+</ul>
+
+<div id="myTabContent" class="tab-content">
+   <div class="tab-pane fade in active" id="home">
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <h4>Home Service</h4>
+                <div align="right">
+                    <a href="#create" data-toggle="modal">Create Service</a>
+                </div>
+            </div>
+            <table class="table table-striped table-hover">
+                <tr>
+                    <th>Name</th>
+                    <th>Type</th>
+                    <th>Address</th>
+                    <th>Update Time</th>
+                    <th>Operation</th>
+                </tr>
+                {% for hs in home_service %}
+                <tr id="{{ hs.id }}">
+                    <td><a href="/instance?id={{ hs.id }}" target="_blank">{{ hs.name }}</a></td>
+                    <td>{{ hs.type }}</td>
+                    <td><a href="http://{{ hs.address }}" target="_blank">{{ hs.address }}</a> </td>
+                    <td>{{ hs.update_time }}</td>
+                     <td><button type="button" class="btn btn-primary create_instance">Create Instance</button>&nbsp;<button type="button" class="btn btn-danger delete">Delete</button></td>
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+    </div>
+
+     <div class="tab-pane fade" id="service">
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <h4>Services' Status</h4>
+            </div>
+
+            <table class="table table-striped table-hover" id="service_table">
+                <tr>
+                    <th>name</th>
+                    <th>address</th>
+                    <th>type-owner-name</th>
+                    <th>create time</th>
+                    <th>status</th>
+                    <th>operation</th>
+                </tr>
+                {% for service in services %}
+                <tr id="{{ service.id }}">
+                   <td><a href="/instance?id={{ service.id }}" target="_blank">{{ service.name }}</a></td>
+                    <td><a href="http://{{ service.address }}" target="_blank">{{ service.address }}</a></td>
+                    <td> {{ service.type }}-{{ service.owner }}-{{ service.name }} </td>
+                    <td> {{ service.create_date }} </td>
+                    {% if service.status==0 %}
+                        <td>未审核</td>
+                        <td><button class="btn btn-primary pass">通过</button>&nbsp;<button type="button" class="btn btn-danger failed">不通过</button></td>
+                        {% elif service.status==1 %}
+                        <td>审核通过</td>
+                        {% elif service.status==2 %}
+                        <td>审核不通过</td>
+                    {% endif %}
+                </tr>
+                 {% endfor %}
+            </table>
+        </div>
+    </div>
+
+    <div class="tab-pane fade" id="runners">
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <h4>Runners' Status</h4>
+            </div>
+            <table class="table table-striped table-hover">
+                <tr>
+                    <th>name</th>
+                    <th>url</th>
+                    <th>docker id</th>
+                    <th>ssh port</th>
+                    <th>type-owner-user-appname</th>
+                    <th>cpu</th>
+                    <th>memory</th>
+                    <th>network(in/out)</th>
+                    <th>operation</th>
+                </tr>
+                {% for runner in runners%}
+                <tr id="runner.name ">
+                    <td>{{ runner.name }}</td>
+                    <td><a href="http://{{ runner.domain }}:{{ runner.port }}/" target="_blank">http://{{ runner.domain }}:{{ runner.port }}/</a></td>
+                    <td><a href="/dockerstat?dockerid={{ runner.dockerid }}" target="_blank">{{ runner.dockerid }}</a></td>
+                    <td>{{ runner.sshport }}</td>
+                    <td> {{ runner.type }}-{{ runner.owner }}-{{ runner.user }}-{{ runner.name }} </td>
+                    <td> {{ runner.cpu }} </td>
+                    <td>{{ runner.memuse }}/{{ runner.memall }}&nbsp;({{runner.mempercent}}) </td>
+                    <td>{{ runner.netin }}/{{ runner.netout }} </td>
+                    <td><button class="btn btn-danger delete">delete</button></td>
+                </tr>
+               {% endfor %}
+            </table>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="create">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">
+						<span>&times;</span>
+					</button>
+					<h4 class="modal-title">Create Service</h4>
+				</div>
+				<!-- <form class="form-horizontal" id="create-form"> -->
+
+                <form class="form-horizontal create-form" action="/upload" method="post" enctype="multipart/form-data">
+                    <div class="modal-body create-service">
+
+                        <div class="form-group">
+                            <label for="service-name" class="col-sm-2 control-label">Name*</label>
+
+                            <div class="col-sm-10">
+                                <input type="text" id="service-name" name="service-name"
+                                    class="col-sm-10 form-control" placeholder="Please input the name of the service" required
+                                    autofocus>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+							<label for="type" class="col-sm-2 control-label">Type*</label>
+							<!-- 服务类型-->
+							<div class="col-sm-10">
+								<select class="form-control" id="type" name="type"  required autofocus>
+								<option value="tomcat" selected>tomcat</option>
+								<option value="tomcat7">tomcat7</option>
+								<option value="gateone">gateone</option>
+							</select>
+							</div>
+						</div>
+
+                        <div class="form-group">
+                            <label for="port" class="col-sm-2 control-label">Port*</label>
+                            <div class="col-sm-10">
+                                <input type="text" id="port" name="port"
+                                    class="col-sm-10 form-control" placeholder="Please input the Port of the service" required
+                                    autofocus>
+                            </div>
+                        </div>
+                            <!-- 代码包-->
+                        <div class="form-group">
+                            <label for="code" class="col-sm-2 control-label">代码包</label>
+                            <div class="col-sm-10">
+                                <input type="file" id="code" name="code"
+                                  class="col-sm-10 form-control">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <input name="rst" type="reset" hidden>
+                        <button type="submit" class="btn btn-primary create-btn"
+                            data-loading-text="创建中，请稍等...">创建</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+</div>
+
+<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="Message" aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Message</h4>
+            </div>
+            <div class="modal-body">
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>

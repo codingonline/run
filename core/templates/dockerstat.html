@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Monitor</title>
+</head>
+<body>
+    <!-- memory -->
+    <div id="memory" style="height:400px"></div>
+    <!-- ECharts单文件引入 -->
+    <script src="{{url_for('static', filename='js/echarts.js')}}"></script>
+
+    <script type="text/javascript">
+    var mem = {{ mems | tojson |safe}};
+    var xMem = new Array();
+    var yMem = new Array();
+    for (var i in mem) {
+        xMem.push(mem[i].time);
+        yMem.push(mem[i].mem);
+    }  
+        // 路径配置
+        require.config({
+            paths: {
+                echarts: '../static/js'
+            }
+        });
+        
+
+        // 使用
+        require(
+            [
+                'echarts',
+                'echarts/chart/line' 
+            ],
+            function (ec) {
+                // 基于准备好的dom，初始化echarts图表
+                var myChart = ec.init(document.getElementById('memory')); 
+                
+                var option = {
+    title : {
+        text: 'Memory 使用情况',
+        subtext: '单位：MB',
+        x: 'center'
+    },
+    tooltip : {
+        trigger: 'axis',
+    },
+   
+    toolbox: {
+        show : true,
+        feature : {
+            mark : {show: true},
+            dataView : {show: true, readOnly: false},
+            saveAsImage : {show: true}
+        }
+    },
+    
+    dataZoom : {
+        show : true,
+        realtime : true,
+        start : 0,
+        end : 100
+    },
+
+    xAxis : [
+        {
+            type : 'category',
+            boundaryGap : false,
+            axisLine: {onZero: false},
+            data : xMem
+        }
+    ],
+    yAxis : [
+        {
+            name : 'Memory(单位：MB)',
+            type : 'value',
+            max : 1000
+        }
+    ],
+    series : [
+        {
+            name:'Memory',
+            type:'line',
+            itemStyle: {normal: {areaStyle: {type: 'default'}}},
+            data: yMem
+        }
+    ]
+};
+        
+                // 为echarts对象加载数据 
+                myChart.setOption(option); 
+            }
+        );
+    </script>
+<!-- memory end -->
+<br>
+<!-- cpu -->
+    <div id="cpu" style="height:400px; margin-top: 40px"></div>
+    <!-- ECharts单文件引入 -->
+    <script src="{{url_for('static', filename='js/echarts.js')}}"></script>
+
+    <script type="text/javascript">
+    
+    var data = {{ cpus | tojson |safe}};
+    var xData = new Array();
+    var yData = new Array();
+    for (var i in data) {
+        xData.push(data[i].time);
+        yData.push(data[i].cpu);
+    }  
+        // 路径配置
+        require.config({
+            paths: {
+                echarts: '../static/js'
+            }
+        });
+        
+
+        // 使用
+        require(
+            [
+                'echarts',
+                'echarts/chart/line' 
+            ],
+            function (ec) {
+                // 基于准备好的dom，初始化echarts图表
+                var myChart = ec.init(document.getElementById('cpu')); 
+                
+                var option = {
+    title : {
+        text: 'CPU 使用情况',
+        subtext: '百分比',
+        x: 'center'
+    },
+    tooltip : {
+        trigger: 'axis',
+    },
+   
+    toolbox: {
+        show : true,
+        feature : {
+            mark : {show: true},
+            dataView : {show: true, readOnly: false},
+            saveAsImage : {show: true}
+        }
+    },
+    
+    dataZoom : {
+        show : true,
+        realtime : true,
+        start : 0,
+        end : 100
+    },
+
+    xAxis : [
+        {
+            type : 'category',
+            boundaryGap : false,
+            axisLine: {onZero: false},
+            data : xData
+        }
+    ],
+    yAxis : [
+        {
+            name : 'CPU(%)',
+            type : 'value',
+            max : 100
+        }
+    ],
+    series : [
+        {
+            name:'CPU',
+            type:'line',
+            itemStyle: {normal: {areaStyle: {type: 'default'}}},
+            data: yData
+        }
+    ]
+};
+        
+                // 为echarts对象加载数据 
+                myChart.setOption(option); 
+            }
+        );
+    </script>
+</body>

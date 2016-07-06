@@ -1,0 +1,105 @@
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, .lead, p{
+    font-family: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB",
+    "Hiragino Sans GB W3", "Microsoft YaHei UI", "Microsoft YaHei",
+    "WenQuanYi Micro Hei", sans-serif;
+}
+
+body {
+    margin-top: 40px;
+}
+
+@media ( min-width :768px) {
+    .navbar {
+        min-height: 40px
+    }
+    .navbar-nav>li>a {
+        font-size: 14px;
+        padding-top: 11px;
+        padding-bottom: 11px
+    }
+    .navbar-brand {
+        padding-top: 0;
+        padding-bottom: 0;
+        line-height: 42px;
+        height: 42px
+    }
+}
+
+.projects{
+    margin: 20px 60px 30px 20px;
+}
+
+.projects a{
+    text-decoration: none;
+    color: #5e5e5e;
+}
+
+.projects .panel{
+    width: 250px;
+    height: 140px;
+    margin: 15px 15px;
+    float: left;
+}
+
+.selector{
+	position: fixed;
+	left: 100px;
+	top: 70px;
+}
+
+.nav-pills-stacked-example{
+	width: 120px;
+}
+
+.projects .panel:hover, .panel:active, .panel:focus{
+    -moz-box-shadow: 0 2px 10px  #999999;
+    -webkit-box-shadow: 0 2px 10px   #999999;
+    box-shadow: 0 2px 12px   #999999;
+    /* For IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#999999')";
+    /* For IE 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#999999');
+    border-radius: 4px;
+}
+
+.panel .panel-body{
+    padding: 10px 15px;
+}
+
+.panel .panel-body img{
+    width: 65px;
+    height: 75px;
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 1px;
+}
+
+.panel .panel-body p{
+    margin-bottom: 1px;
+    
+}
+
+.panel .panel-body .content-img{
+    float: left;
+    width: 40%;
+}
+
+.panel .panel-body .content-info{
+    float: left;
+    width: 60%;
+}
+
+.modal .modal-body form{
+    margin: 0 30px;
+}
+
+p.text-running{
+	color: rgb(37,181,30) ;
+}
+
+#developers-panel{
+	width:70%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 0;
+}

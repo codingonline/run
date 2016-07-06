@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<!-- Favicons -->
+<link rel="icon" href="../static/favicon.ico">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Status of all runners</title>
+    <script src="../static/lib/jquery/jquery-1.9.1.min.js"></script>
+    <script src="../static/lib/bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+    <link href="../static/lib/bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+        div.panel, div.page-header {
+            width: 85%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        th, td {
+            text-align: center;
+        }
+    </style>
+
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $("#refresh").click(function() {
+            window.location.reload();
+        });
+    });
+    </script>
+
+</head>
+<body>
+<div align="right">
+  <a href="/logout" id="logout"><i class="fa fa-power-off"></i>退出</a>
+</div>
+<div class="page-header">
+    <h2><span><button id="refresh" class="btn btn-primary">Refresh</button></span> Monitoring page for pop2016</h2>
+</div>
+<ul id="myTab" class="nav nav-tabs">
+   <li class="active"><a href="#onlineinfo" data-toggle="tab">上线情况</a></li>
+    <li><a href="#alluser" data-toggle="tab">活跃用户</a></li>
+   <li><a href="/monitor" target="_blank">系统运行情况</a></li>
+    <li><a href="http://123.57.2.1:4500/list?uid=111" target="_blank">工单情况</a></li>
+</ul>
+
+<div id="myTabContent" class="tab-content">
+     <div class="tab-pane fade in active" id="onlineinfo">
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <h4>用户上线情况</h4>
+                <div align="right">
+                    用户总数：{{ user_count }}
+                </div>
+            </div>
+
+            <table class="table table-striped table-hover">
+                <tr>
+                    <th>日期</th>
+                    <th>上线人数</th>
+                </tr>
+                {% for online in onlines %}
+                <tr id="{{ online.date }}">
+                   <td>{{ online.date }}</td>
+                    <td>{{ online.count }}</td>
+                </tr>
+                 {% endfor %}
+            </table>
+        </div>
+    </div>
+    <div class="tab-pane fade" id="alluser">
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <h4>注册用户</h4>
+                <div align="right">
+                    用户总数：{{ user_count }}
+                </div>
+            </div>
+            <table class="table table-striped table-hover" id="service_table">
+                <tr>
+                    <th>用户编号</th>
+                    <th>用户名</th>
+                    <th>email</th>
+                    <th>最近访问时间</th>
+                    <th>注册时间</th>
+                </tr>
+                {% for user in users %}
+                <tr id="{{ user.id }}">
+                   <td>{{ user.id }}</td>
+                    <td>{{ user.username }}</td>
+                    <td> {{ user.email }}</td>
+                    <td> {{ user.last_login }}</td>
+                    <td> {{ user.register_time }}</td>
+                </tr>
+                 {% endfor %}
+            </table>
+        </div>
+    </div>
+
+</div>
+
+<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="Message" aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Message</h4>
+            </div>
+            <div class="modal-body">
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
